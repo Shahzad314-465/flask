@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Employee Form</h2>
+
+<!-- Error aayega to yaha dikhega -->
+<h3>{{ error }}</h3>
+
+<!-- Form frontend ke /submit route par jayega -->
+<form action="/submit" method="POST">
+
+    Name :
+    <input type="text" name="name">
+
+    <br><br>
+
+    Email :
+    <input type="email" name="email">
+
+    <br><br>
+
+    <button type="submit">
+        Submit
+    </button>
+
+</form>
+    
+</body>
+</html>
